@@ -350,3 +350,16 @@ h4 {
   gap: 20px;
   margin-bottom: 30px;
 }
+.row {
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+  gap: 75px;
+}
+article {
+  flex: 1; /**/
+  align-items: end;
+}
+aside {
+  flex: 0 0 300px;
+}
