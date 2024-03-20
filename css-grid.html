@@ -13,7 +13,7 @@
         background-color: orangered;
       }
       .el--3 {
-        background-color: green;
+        background-color: green; /* higher container */
         height: 150px;
       }
       .el--4 {
@@ -40,9 +40,20 @@
         margin: 40px;
 
         /* CSS GRID */
+        display: grid;
+        /* controlling the width as height is predefined */
+        grid-template-columns: 200px 200px 100px 100px;
+        /* controlling the height  */
+        grid-template-rows: 300px 200px;
+        /* no margin in grid only use gaps  */
+        /* gap: 20px; */
+        column-gap: 20px;
+        row-gap: 60px;
       }
 
       .container--2 {
+        /*  */
+        display: none;
         /* STARTER */
         font-family: sans-serif;
         background-color: black;
