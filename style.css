@@ -344,22 +344,26 @@ h4 {
   margin-bottom: 5px;
   display: block;
 }
+
 .related-post {
   display: flex;
   align-items: center;
   gap: 20px;
   margin-bottom: 30px;
 }
-.row {
+
+/* flex-box usage  */
+/* .row {
   display: flex;
   justify-content: start;
   align-items: flex-start;
   gap: 75px;
 }
 article {
-  flex: 1; /**/
+  flex: 1; 
   align-items: end;
 }
 aside {
   flex: 0 0 300px;
-}
+} 
+*/
